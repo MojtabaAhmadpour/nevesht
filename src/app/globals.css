@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import url("../../node_modules/vazirmatn/Vazirmatn-Variable-font-face.css"); */
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -16,8 +15,13 @@
   }
 }
 
+@font-face {
+  font-family: 'vazirmatn';
+  src: local('vazirmatn'), url(../fonts/Vazirmatn-Regular.ttf) format('truetype');
+}
+
 body {
-  /* font-family: vazirmatn !important; */
+  font-family: vazirmatn !important;
   background-color:rgb(236 253 245);
 }
 .container{
