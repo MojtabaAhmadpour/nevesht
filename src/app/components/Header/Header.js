@@ -21,7 +21,6 @@ export default function Header (){
                 src={typeicon}
                 width={110} 
                 />
-
                 
             </div>
             <div className="">
