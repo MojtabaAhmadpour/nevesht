@@ -6,6 +6,7 @@ import { BiHomeAlt } from "react-icons/bi";
 import { BiNews } from "react-icons/bi";
 import Image from 'next/image'
 import typeicon from "../../../../public/assets/images/nevesht_logo_raw.svg"
+import Link from 'next/link'
 
 
 
@@ -26,7 +27,7 @@ export default function Header (){
             <div className="">
                 <ul className="flex flex-row-reverse pr-4">
                     <li>
-                        <a href="#" className="flex items-center px-4 py-2 m-2 hover:bg-emerald-50 rounded-lg duration-75 ">صفحه اصلی  <BiHomeAlt /> </a>
+                      <a href="#" className="flex items-center px-4 py-2 m-2 hover:bg-emerald-50 rounded-lg duration-75 ">صفحه اصلی  <BiHomeAlt /> </a>
                     </li>
                     <li>
                         <a href="#" className="flex items-center px-4 py-2 my-2 hover:bg-emerald-50 rounded-lg duration-75 ">محبوب ترین ها <BiHeart /></a>

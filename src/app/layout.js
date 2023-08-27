@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <title>شبکه اجتماعی نوشت </title>
+      <title> شبکه اجتماعی نوشت &ensp;</title>
       <link rel="icon" href="mark.png" />
       </head>
       <body className={inter.className}>{children}</body>
