@@ -6,7 +6,6 @@ import { BiHomeAlt } from "react-icons/bi";
 import { BiNews } from "react-icons/bi";
 import Image from 'next/image'
 import typeicon from "../../../../public/assets/images/nevesht_logo_raw.svg"
-import Link from 'next/link'
 
 
 
