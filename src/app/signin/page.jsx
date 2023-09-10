@@ -10,7 +10,7 @@ const login = () => {
     <main className="flex w-screen h-screen">
       <div className="w-1/3 bg-emerald-50 ">
         <div className="text-right mt-6">
-          <h1 className="text-xs mr-12 mt-4">
+          <h1 className="text-sm mr-8 mt-4">
             {" "}
             ... شبکه اجتماعی نوشت ، جایی برای بیان احساسات،افکاروناگفته های شما{" "}
           </h1>
