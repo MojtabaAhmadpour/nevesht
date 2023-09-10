@@ -1,12 +1,12 @@
 import style from "@/app/components/Main/Main.module.css"
 import Image from 'next/image'
-import mainimage from '../../../../public/assets/images/empty_folder.png'
+import emptyfolder from '../../../../public/assets/images/empty_folder.png'
 
 export default function Main(){
     return(
         <div className={style.main}>
               <Image
-                  src={mainimage}
+                  src={emptyfolder}
                    alt="mainimage"
                    width={320}
               />

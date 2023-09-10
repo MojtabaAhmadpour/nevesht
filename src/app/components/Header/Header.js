@@ -9,11 +9,12 @@ import typeicon from "../../../../public/assets/images/nevesht_logo_raw.svg"
 
 
 
+
 export default function Header (){
     return(
         <div className={style.header}>
             <div className="flex">
-                <button className="flex items-center mr-4 p-2 hover:bg-emerald-50 rounded-lg duration-75 ">ثبت نام <BiPencil/></button>
+                <button className="flex items-center mr-4 p-2 hover:bg-emerald-50 rounded-lg duration-75  ">ثبت نام <BiPencil/></button>
                 <button className="flex items-center mr-4 p-2 hover:bg-emerald-50 rounded-lg duration-75 ">ورود <BiLogIn/></button>
             </div>
             <div className="flex items-center">
