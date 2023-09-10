@@ -70,38 +70,38 @@ const login = () => {
           </div>
           <div className="">
             <form className="flex flex-col mt-8">
-              <label for="name" className="text-sm text-right text-gray-600">:نام خود راوارد کنید</label>
+              <label for="name" className="text-sm text-right text-gray-600">:نام   </label>
               <input
                 type="input"
                 placeholder="مجتبی احمدپور "
                 className="mb-1 rounded-md text-gray-400 text-right p-1 pr-2 w-72"
                 id="name"
               />
-              <label for="email" className="text-sm text-right text-gray-600">:ایمیل خودراواردکنید</label>
+              <label for="email" className="text-sm text-right text-gray-600">:ایمیل </label>
               <input
                 type="email"
                 placeholder="ahmadpour@nevehsh.ir"
                 className="mb-2 rounded-md text-gray-400 text-right p-1 pr-2 w-72"
                 id="email"
               />
-              <label for="username" className="text-sm text-right text-gray-600">:یک نام کاربری واردکنید</label>
+              <label for="username" className="text-sm text-right text-gray-600">:نام کاربری </label>
               <input
                 type="input"
                 placeholder="نام کاربری"
                 className="mb-2 rounded-md text-gray-400 text-right p-1 pr-2 w-72"
                 id="username"
               />
-              <label for="password" className="text-sm text-right text-gray-600">:یک رمزعبورواردکنید</label>
+              <label for="password" className="text-sm text-right text-gray-600">:رمزعبور</label>
               <input
                 type="input"
                 placeholder="رمز عبور"
                 className="mb-2  rounded-md text-gray-400 text-right p-1 pr-2 w-72"
                 id="password"
               />
-              <label for="re-password" className="text-sm text-right text-gray-600">:رمزعبورخودرامجددواردکنید</label>
+              <label for="re-password" className="text-sm text-right text-gray-600">: تکرار رمزعبور</label>
               <input
                 type="input"
-                placeholder="رمز عبور"
+                placeholder="تکرار رمزعبور"
                 className="mb-2  rounded-md text-gray-400 text-right p-1 pr-2 w-72"
                 id="re-password"
               />
